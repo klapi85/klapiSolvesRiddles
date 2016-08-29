@@ -1,6 +1,7 @@
 use strict;
 
 ## W. Kuchta 2016
+## https://www.hackerrank.com/challenges/mars-exploration
 
 my $s = <STDIN>;
 
