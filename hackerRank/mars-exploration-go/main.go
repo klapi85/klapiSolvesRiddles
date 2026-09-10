@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"os"
 )
 
 /*
@@ -30,7 +31,12 @@ func marsExploration(s string) int {
 }
 
 func main() {
-	s := "SOS456SOS"
+	if len(os.Args) < 2 {
+		fmt.Println("Please add an argument like 'SOSSOS'!")
+		return
+	}
+
+	s := os.Args[1]
 
 	result := marsExploration(s)
 
