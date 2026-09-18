@@ -3,7 +3,7 @@ use strict;
 ## W. Kuchta 2016
 ## https://www.hackerrank.com/challenges/mars-exploration
 
-my $s = <STDIN>;
+my $s = $ARGV[0];
 
 my $sum = 0;
 
